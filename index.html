@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./animacionmenu.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lorenzo Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <div>Lorenzo</div>
+            <div>Herrero</div>
+        </div>
+
+        <ul class="menu">
+            <div class="menu__barras">
+                <div><span class="barra" id="barra1"></span></div>
+                <div><span class="barra" id="barra2"></span></div>
+                <div><span class="barra" id="barra3"></span></div>
+            </div>
+            <div class="menu__li">
+                <li><a href="./index.html#main">Inicio</a></li>
+                <li><a href="./index.html#sobremi">SobreMi</a></li>
+                <li><a href="./index.html#curriculum">Curriculum</a></li>
+                <li><a href="./index.html#contacto">Contacto</a></li>
+            </div>
+        </ul>
+    </header>
+
+    <main class="main" id="main">
+        <div class="main_contenedores">
+            <div class="main__contenedor1">
+                <div class="main__contenedor1__titulo">
+                    <h1 class="text__shadow">Lorenzo Herrero Salcedo</h1>
+                </div>
+                <div class="main__contenedor1__parrafo">
+                    <img src="./img/yo.jpg" class="imagen__yo">
+                </div>
+            </div>
+            
+            <div class="main__contenedor2">
+                <div class="main__contenedor2__parrafo">
+                    <h1>Técnico en Microsistemas informaticos y Redes Locales</h1>
+                    <h1>&</h1>
+                    <h1>Técnico en Desarrollo de Aplicaciones Web</h1>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <hr class="linea">
+
+    <section class="sobremi" id="sobremi">
+        <div class="sobremi__titulo">
+            <h1><span class="titulo__azul">S</span>obre <span class="titulo__azul">M</span>i</h1>
+        </div>
+        <div class="sobremi_contenedores">
+            <div class="sobremi__contenedor1">
+                <div class="sombremi__contenedor1__titulo">
+                    <h1>Presentación:</h1>
+                </div>
+                <div class="sobremi__contenedor1__parrafo">
+                    <p>Hola, me llamo Lorenzo. Soy un aficionado a la informática, me ha gustado desde pequeño.
+                        He estudiado un grado medio y estoy haciendo un grado de informática, ya que siempre me he
+                        querido dedicar a ello. Me gusta trabajar en equipo, resolver problemas en grupos y mejorar
+                        cada día.
+                    </p>
+                </div>
+            </div>
+
+            <div class="sobremi__contenedor2">
+                <div class="sombremi__contenedor2__titulo">
+                    <h1>Estudios:</h1>
+                </div>
+                <div class="sobremi__contenedor2__parrafo">
+                    <p>Grado medio en Microsistemas operativos y redes locales</p>
+                    <p>IES Jorge Guillen</p>
+                    <hr class="linea_blanca">
+                    <p>Grado Superior en Desarrollo de Aplicaciones Web</p>
+                    <p>IES Francisco Ayala</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="linea">
+
+    <section class="curriculum" id="curriculum">
+        <div class="curriculum__titulo">
+            <h1><span class="titulo__azul">C</span>urriculum</h1>
+        </div>
+        <div class="curriculum_contenedores">
+            <div class="curriculum__contenedor1">
+                <div class="curriculum__contenedor1__titulo">
+                    <h1>Habilidades:</h1>
+                </div>
+                <div class="curriculum__contenedor1__parrafo">
+                    <p>- Java y Php (Intermedio)</p>
+                    <p>- Html (Avanzado)</p>
+                    <p>- Css y JavaScript (Intermedio)</p>
+                    <p>- MySQL y MariaDB (Intermedio)</p>
+                    <p>- Gestión de servidores Linux y Windows</p>
+                    <p>- Herramientas Ofimáticas</p>
+                </div>
+            </div>
+            
+            <div class="curriculum__contenedor2">
+                <div class="curriculum__contenedor2__titulo">
+                    <h1>Ver proyectos:</h1>
+                </div>
+                <div class="curriculum__contenedor2__parrafo">
+                    <img src="./img/github.png" class="imagen__github">
+                    <a href="https://github.com/Lorentain?tab=repositories" target="_blank"><button class="boton">Ver Github</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="linea">
+
+    <section class="contacto" id="contacto">
+        <div class="contacto__contenedor1">
+            <div class="contacto__titulo">
+                <h1><span class="titulo__azul">C</span>ontacta <span class="titulo__azul">A</span>quí</h1>
+            </div>
+            <div class="contacto__formulario">
+                <form>
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Correo">
+                    <textarea placeholder="Escribe tu duda aquí"></textarea>
+                    <input type="submit" value="Enviar" id="enviar">
+                </form>
+            </div>
+        </div>
+        
+        <div class="contacto__contenedor2">
+            <div class="contacto__titulo2">
+                <h1><span class="titulo__azul">I</span>nformación de <span class="titulo__azul">C</span>ontacto</h1>
+            </div>
+            <br><br>
+            <div class="contacto__iconos">
+                <div class="icono__correo">
+                    <img src="./img/correo.png">
+                    <p>lorentain2@gmail.com</p>
+                </div>
+                <br>
+                <div class="icono__telefono">
+                    <img src="./img/telefono.png">
+                    <p>+34 625 23 18 16</p>
+                </div>
+                <br>
+                <div class="icono__telefono">
+                    <img src="./img/ubicacion.png">
+                    <p>Nerja, Málaga</p>
+                </div>
+            </div>    
+        </div>
+    </section>
+    
+
+    
+</body>
+</html>
